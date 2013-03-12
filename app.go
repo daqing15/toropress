@@ -5,6 +5,7 @@ import (
 	"github.com/insionng/torgo"
 	//"lihuashu.com/insionng/torgo"
 	"runtime"
+        "fmt"
 )
 
 func main() {
@@ -40,4 +41,5 @@ func main() {
 
 	torgo.SessionOn = true
 	torgo.Run()
+	fmt.Println("我是嘿哟Jpy")
 }
